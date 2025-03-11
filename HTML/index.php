@@ -23,9 +23,9 @@
               <a href="login.php" class="login-btn"><i class="fa-solid fa-user"></i></a>
             </div>
             <nav>
-              <a href="index.php">Home</a>
+              <a href="index.php" class="active">Home</a>
               <a href="information.php">Information</a>
-              <a href="">Popular Apps</a>
+              <a href="popular-apps.php">Popular Apps</a>
               <a href="">Parents help</a>
               <a href="">Contact</a>
               <a href="">Legislation and Guidance</a>
@@ -33,10 +33,6 @@
             <div class="pc">
               <a href="login.php" class="login-btn"><i class="fa-solid fa-user"></i></a>
             </div>
-            <form action="" class="search-form sp">
-              <input type="search" class="search-box" placeholder="Search...">
-              <div class="search-ico"><i class="fa-solid fa-search"></i></div>
-            </form>
             <div class="close-btn">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -53,10 +49,6 @@
         </div>
       </header>
     </div>
-    <form action="" class="search-form pc">
-      <input type="search" class="search-box" placeholder="Search...">
-      <div class="search-ico"><i class="fa-solid fa-search"></i></div>
-    </form>
     <main>
       <section class="mv-sec l-inner">
         <div class="mv-left">
@@ -170,16 +162,16 @@
       </section>
     </main>
     <footer>
-        <div class="footer-content">
-            <p class="current-page">You are here: <strong>Current Page Title</strong></p>
-            <p class="copyright">© 2023 Social Media Campaigns Ltd. All rights reserved.</p>
-            <div class="social-media">
-                <a href="https://facebook.com" target="_blank" class="social-icon">Facebook</a>
-                <a href="https://twitter.com" target="_blank" class="social-icon">Twitter</a>
-                <a href="https://instagram.com" target="_blank" class="social-icon">Instagram</a>
-                <a href="https://linkedin.com" target="_blank" class="social-icon">LinkedIn</a>
-            </div>
+      <div class="footer-content">
+        <p class="current-page">You are here: <strong>Current Page Title</strong></p>
+        <p class="copyright">© 2023 Social Media Campaigns Ltd. All rights reserved.</p>
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank" class="social-icon">Facebook</a>
+          <a href="https://twitter.com" target="_blank" class="social-icon">Twitter</a>
+          <a href="https://instagram.com" target="_blank" class="social-icon">Instagram</a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon">LinkedIn</a>
         </div>
+      </div>
     </footer>
   </div>
   <script src="../JS/main.js"></script>

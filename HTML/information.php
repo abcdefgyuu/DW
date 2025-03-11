@@ -26,7 +26,7 @@
         <nav>
           <a href="index.php">Home</a>
           <a href="information.php" class="active">Information</a>
-          <a href="">Popular Apps</a>
+          <a href="popular-apps.php">Popular Apps</a>
           <a href="">Parents help</a>
           <a href="">Contact</a>
           <a href="">Legislation and Guidance</a>
