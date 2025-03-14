@@ -24,12 +24,12 @@
               <a href="login.php" class="login-btn"><i class="fa-solid fa-user"></i></a>
             </div>
             <nav>
-              <a href="index.php">Home</a>
-              <a href="information.php">Information</a>
+            <a href="information.php">Information</a>
               <a href="popular-apps.php" class="active">Popular Apps</a>
-              <a href="">Parents help</a>
-              <a href="">Contact</a>
-              <a href="">Legislation and Guidance</a>
+              <a href="parents-help.php">Parents help</a>
+              <a href="livestream.php">Live Streaming</a>
+              <a href="contact.php">Contact</a>
+              <a href="guide.php">Legislation and Guidance</a>
             </nav>
             <div class="pc">
               <a href="login.php" class="login-btn"><i class="fa-solid fa-user"></i></a>
@@ -57,7 +57,7 @@
 
     <main>
       <section class="sec-apps l-inner">
-        <form action="" class="search-form pc">
+        <form action="" class="search-form">
           <input type="search" class="search-box" placeholder="Search...">
           <div class="search-ico"><i class="fa-solid fa-search"></i></div>
         </form>
@@ -112,7 +112,7 @@
 
     <footer>
       <div class="footer-content">
-        <p class="current-page">You are here: <strong>Information</strong></p>
+        <p class="current-page">You are here: <strong>Popular Apps</strong></p>
         <p class="copyright">© 2023 Social Media Campaigns Ltd. All rights reserved.</p>
         <div class="social-media">
           <a href="https://facebook.com" target="_blank" class="social-icon">Facebook</a>

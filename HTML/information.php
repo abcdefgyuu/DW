@@ -24,12 +24,12 @@
           <a href="login.php" class="login-btn"><i class="fa-solid fa-user"></i></a>
         </div>
         <nav>
-          <a href="index.php">Home</a>
           <a href="information.php" class="active">Information</a>
           <a href="popular-apps.php">Popular Apps</a>
-          <a href="">Parents help</a>
-          <a href="">Contact</a>
-          <a href="">Legislation and Guidance</a>
+          <a href="parents-help.php">Parents help</a>
+          <a href="livestream.php">Live Streaming</a>
+          <a href="contact.php">Contact</a>
+          <a href="guide.php">Legislation and Guidance</a>
         </nav>
         <div class="pc">
           <a href="login.php" class="login-btn"><i class="fa-solid fa-user"></i></a>

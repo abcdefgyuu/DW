@@ -26,7 +26,7 @@ document.querySelectorAll('.accordion-header').forEach(header => {
 
 //rise up when scroll
 document.addEventListener("DOMContentLoaded", function () {
-    const appCards = document.querySelectorAll(".app-card");
+    const appCards = document.querySelectorAll(".tip-card ");
 
     const observer = new IntersectionObserver(
         (entries) => {
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         },
         {
-            threshold: 0.5, 
+            threshold: 0.1, 
         }
     );
 
